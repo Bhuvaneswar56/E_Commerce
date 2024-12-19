@@ -1,7 +1,7 @@
 import React from 'react'
 import E_COMMERCE_INSTANCE from '../Services/api'
 import { useParams } from 'react-router-dom'
-import ProductCard from '../Components/ProductCard'
+import ProductCard from '../Components/ProductCard.jsx'
 import { useState,useEffect } from 'react'
 
 function Categorypage() {

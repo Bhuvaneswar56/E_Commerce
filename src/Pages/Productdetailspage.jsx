@@ -1,8 +1,8 @@
 import React, { useEffect, useState ,useContext } from 'react'
 import { useParams } from 'react-router-dom'
 import E_COMMERCE_INSTANCE from '../Services/api'
-import ProductDetails from '../Components/productDetails'
-import GlobalContext from '../Context/Globalcontext'
+import ProductDetails from '../Components/ProductDetails.jsx'
+import GlobalContext from '../Context/Globalcontext.js'
 
 
 function Productdetailspage() {
