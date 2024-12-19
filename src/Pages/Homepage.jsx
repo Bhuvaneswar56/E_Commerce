@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Outlet, useOutlet } from 'react-router-dom';
 import Header from '../Components/Header.jsx';
 import CategoryNavigation from '../Components/CategoryNavigation.jsx';
-import ProductGrid from '../components/ProductGrid';
-import Footer from '../components/Footer';
+import ProductGrid from '../Components/ProductGrid.jsx'
+import Footer from '../Components/Footer.jsx';
 import E_COMMERCE_INSTANCE from '../Services/api';
 import Banner from '../Components/Banner.jsx';
 import SearchSection from '../Components/SearchSection.jsx';
